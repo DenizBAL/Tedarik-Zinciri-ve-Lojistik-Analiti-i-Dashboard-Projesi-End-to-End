@@ -42,17 +42,19 @@ C-level yöneticilerin şirketin genel finansal sağlığını saniyeler içinde
 * **KPI Matrisi:** Toplam Ciro (159.57 Milyon ₺), Net Kâr (19.32 Milyon ₺) ve toplam hacim (10.000 sipariş) gibi ana metrikleri takip eder.
 * **Temel İçgörü:** Rapor genelinde göze çarpan en kritik operasyonel problem; yüksek ciro büyümesine rağmen, bazı alt kırılımlardaki yüksek maliyetler sebebiyle Ortalama Kâr Marjının %-12 seviyelerine baskılanmış olmasıdır.
 * **Görselleştirmeler:** Aylık Ciro ve Net Kâr trendi (Çizgi Grafik), Müşteri Segmenti ciro dağılımı (Donut Grafik) ve En Kârlı Ürün Kategorileri performansı.
+![Yönetici Özeti Dashboard](Assets/sum.png)
 
 ### 📄 2. Lojistik ve Tedarik Zinciri Analizi (Logistics Performance)
 Depo operasyon müdürlerinin ve sevkiyat sorumlularının kargo firmalarını (3PL) denetlemesi ve performans ölçümü yapması için yapılandırılmıştır.
 * **Operasyonel Süreç:** Ortalama Teslimat Döngüsü (6 Gün) ile Kargonun Yolda Geçen Süresi (4.6 Gün) kıyaslanmıştır.
 * **SLA İhlalleri:** Zamanında teslimat oranları incelenerek; belirli kargo firmalarının (Örn: Aras Kargo, FedEx, UPS) ve belirli çıkış depolarının (Örn: Berlin, Ankara, İstanbul) yarattığı operasyonel darboğazlar ve gecikme anomalileri izole edilmiştir.
+![Lojistik Dashboard](Assets/log.png)
 
 ### 📄 3. Müşteri ve Coğrafya Analizi (Customer Insights)
 Pazarlama ve satış ekiplerinin yüksek değerli bölgeleri keşfetmesi ve müşteri bazlı kâr erimelerini teşhis etmesi için özelleştirilmiştir.
 * **Coğrafi Dağılım:** Avrupa ve Kuzey Amerika koridorlarındaki işlem yoğunlukları Harita görseli üzerinde konumlandırılmıştır.
 * **Kârlılık Keşfi (Kritik Analiz):** Müşteri türlerine göre Net Kâr durumunu incelemek için kurulan Kümelenmiş Sütun Grafik, çok önemli bir ticari gerçeği ortaya çıkarmıştır: **Kurumsal (Corporate)** segment oldukça yüksek kârlılıkla (13.2 Milyon ₺) çalışırken, **Bireysel (Retail)** segment toplamda ciddi bir net zarar içerisindedir. Bu durum, sadece yüksek seviyeli ciro grafiklerine güvenmek yerine, net kâr odaklı derinlemesine analiz yapmanın önemini kanıtlamaktadır.
-
+![Müşteri Dashboard](Assets/custom.png)
 ---
 
 ## 💡 Analitik Bulgular (Veri Analisti Değerlendirmesi)
@@ -60,3 +62,6 @@ Bu projenin işletmeye sağladığı en büyük katma değer, Bireysel (Retail) 
 
 ---
 *Uçtan uca veri mühendisliği ve görselleştirme uygulamaları kapsamında geliştirilmiştir.*
+---
+## 📬 İletişim
+Bu proje ile ilgili sorularınız veya önerileriniz için benimle [LinkedIn profilim](https://www.linkedin.com/in/deniz-bal-64838b225) üzerinden iletişime geçebilirsiniz.
